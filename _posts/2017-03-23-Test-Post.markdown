@@ -5,6 +5,7 @@ subtitle   : "Test Post1"
 date       : 2017-03-22 00:11:04
 author     : "TIna"
 tags       : Test
+comments   : true
 ---
 
 
