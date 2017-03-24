@@ -15,7 +15,7 @@ Sources for 'Android API 23 Platform' not found.
 ```
 [![android_api_not_found](https://github.com/t79111222/t79111222.github.io/blob/master/images/2017/03/android_api_not_found.png?raw=true)](https://github.com/t79111222/t79111222.github.io/blob/master/images/2017/03/android_api_not_found.png?raw=true)
 
-裡面完全沒有function的詳細內容，就算點了Download後，再怎麼點Refresh也沒反應 :sob:
+裡面完全沒有function的詳細內容，就算點了Download後，再怎麼點Refresh也沒反應
 
 ### 解決方法
 
