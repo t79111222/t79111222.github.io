@@ -4,7 +4,7 @@ title      : "Android Library 發佈到JCenter"
 subtitle   : "讓別人在gradle添加一行指令就引用你的Library"
 date       : 2017-03-23 13:36:23 +0800
 author     : "TIna"
-tags       : Androd JCenter
+tags       : Android JCenter
 comments   : true
 ---
 
