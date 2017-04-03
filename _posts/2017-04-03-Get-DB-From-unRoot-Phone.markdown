@@ -26,21 +26,29 @@ comments   : true
 所以只能下指令進入設備將db檔複製到，手機的sdcard中，在下載到電腦中。
 
 連上手機後，在USB偵錯模式，直接使用Android Studio的Terminal下指令
->huangyitingde-MacBook-Pro:DrinkOrder Yi$ **adb shell** _//進入你的手機設備中_    
->shell@htc_a16ul:/ $ **run-as com.your.packageName** _//進入你的app資料夾_  
->shell@htc_a16ul:/data/data/com.your.packageName $ **ls** _//看看有什麼資料_  
+>huangyitingde-MacBook-Pro:DrinkOrder Yi$ **adb shell**   
+>-```進入你的手機設備中```  
+>shell@htc_a16ul:/ $ **run-as com.your.packageName**   
+>-```進入你的app資料夾```  
+>shell@htc_a16ul:/data/data/com.your.packageName $ **ls**   
+>-```看看有什麼資料```  
 >cache  
 >code_cache  
 >databases  
 >shared_prefs  
->shell@htc_a16ul:/data/data/com.your.packageName $ **cd databases** _//進入databases資料夾_  
+>shell@htc_a16ul:/data/data/com.your.packageName $ **cd databases**   
+>-```進入databases資料夾```  
 >shell@htc_a16ul:/data/data/com.your.packageName/databases $ **ls**  
 >yourDbName.db  
 >yourDbName.db-journal  
->shell@htc_a16ul:/data/data/com.your.packageName/databases $ **cat yourDbName.db > /mnt/sdcard/yourDbName.db** _//複製一份db至sdcard裡_   
->shell@htc_a16ul:/data/data/com.your.packageName/databases $ **exit** _//退出你的app資料夾_  
->shell@htc_a16ul:/ $ **exit** _//退出你的手機設備_  
->huangyitingde-MacBook-Pro:DrinkOrder Yi$ **adb pull /sdcard/yourDbName.db /your/computer/path/yourDbName.db** _//將db複製到電腦裡_   
+>shell@htc_a16ul:/data/data/com.your.packageName/databases $ **cat yourDbName.db > /mnt/sdcard/yourDbName.db**   
+>-```複製一份db至sdcard裡```  
+>shell@htc_a16ul:/data/data/com.your.packageName/databases $ **exit**   
+>-```退出你的app資料夾```  
+>shell@htc_a16ul:/ $ **exit**   
+>-```退出你的手機設備```  
+>huangyitingde-MacBook-Pro:DrinkOrder Yi$ **adb pull /sdcard/yourDbName.db /your/computer/path/yourDbName.db**   
+>-```將db複製到電腦裡```   
 
 ## 看DB內容
 找個看SQLite的DB Browser，看看你的DB內容，我使用的是[DB Browser for SQLite](http://sqlitebrowser.org/)，他有支援Windows & Mac ，雖然畫面很陽春，但我覺得很好用。
