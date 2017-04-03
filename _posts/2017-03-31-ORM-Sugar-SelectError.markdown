@@ -71,4 +71,4 @@ public class DrinkSugar extends SugarRecord {
 所以要我選擇維持用```drinkId```，只是在查詢時記得在大寫字母前加個底線  
 
 ## 下篇預告
->如何從未Root的手機取得DB，來協助debug
+>[如何從未Root的手機取得DB，來協助debug](https://t79111222.github.io/2017/04/03/Get-DB-From-unRoot-Phone/)
