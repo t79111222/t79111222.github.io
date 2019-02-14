@@ -13,7 +13,7 @@ comments   : true
 ## 規格
 > 處理器 Intel Core i5 2.7GHz  
 > 記憶體 8 GB  
->硬碟 256G SSD    
+> 硬碟 256G SSD    
 
 [![file_explorer](https://github.com/t79111222/t79111222.github.io/blob/master/images/2019/02/mac_overview.png?raw=true)](https://github.com/t79111222/t79111222.github.io/blob/master/images/2019/02/mac_overview.png?raw=true)
 
@@ -25,6 +25,12 @@ comments   : true
 ## 保固
 有購買AppleCare，保固至**2019年5月27日**
 [![file_explorer](https://github.com/t79111222/t79111222.github.io/blob/master/images/2019/02/mac_warranty.png?raw=true)](https://github.com/t79111222/t79111222.github.io/blob/master/images/2019/02/mac_warranty.png?raw=true)
+
+## 交易
+
+ + 面交(彰化或北車附近)
+ + 價格**28000**
+ + 聯絡方式LINE ID: <font color="#292929">t79111222</font>
 
 ## 照片
 盒子配件都還在
