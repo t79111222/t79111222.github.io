@@ -1,6 +1,6 @@
 ---
 layout     : post
-title      : "出售Ｍacbook Pro"
+title      : "[已賣出]出售Ｍacbook Pro"
 subtitle   : "Macbook Pro Retina 13 2015 8G/256G"
 date       : 2019-02-14 13:23:00 +0800
 author     : "TIna"
