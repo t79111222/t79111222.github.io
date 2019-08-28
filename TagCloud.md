@@ -3,7 +3,7 @@ layout: page
 title: Tags
 ---
 <ul class="tag-cloud">
-{% assign sorted_tags = (site.tags | sort: 0) %}
+{% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags %}
   <li>
     <a href="/tags/{{ tag[0] }}">

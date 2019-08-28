@@ -3,7 +3,7 @@ markdown            : kramdown
 redcarpet:
   extensions        : ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
 highlighter         : rouge
-gems                : ["jekyll-paginate", "jekyll-assets"]
+plugins                : ["jekyll-paginate", "jekyll-assets"]
 
 # Permalinks
 permalink           : pretty
@@ -23,3 +23,5 @@ paginate            : 5
 # Custom vars
 version             : 0.1.0
 github_username     : t79111222
+
+safe: false
